@@ -1,0 +1,39 @@
+device: 'cuda:0'
+seed: 10
+obs_dim: 28 #29 #for antmaze
+action_dim: 5 #8 for antmaze
+
+model_dir: '/home/anantgarg/Documents/Addverb/control_training/cobot_logs'
+
+train:
+  device: ${device}
+  hidden_dim: 128
+  q_lr: 1e-4
+  policy_lr: 1e-4
+  total_timesteps: 2e6
+  stddev_clip: 0.3
+  stddev_schedule: 'linear(1.0,0.1,100000)'
+  gamma: 0.99
+  alpha: 0.2
+  autotune: True
+  buffer_size: 2e5
+  replay_buffer_batch_size: 256
+  learning_starts: 256
+  policy_freq: 2
+  target_network_freq: 1
+  update_every_steps: 2
+  critic_target_tau: 0.01
+  seed: ${seed}
+  log_ckpt_every: 5000
+  obs_dim: ${obs_dim}
+  action_dim: ${action_dim}
+  model_dir: ${model_dir}
+
+env:
+  max_episode_steps: 280
+  screen_size: [128, 128]
+  pixel_ob: false
+  state_ob: true
+  action_repeat: 1
+  task: 'base'
+  absorbing_state: false

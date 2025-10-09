@@ -1,0 +1,20 @@
+<mujoco model="table_bin_box">
+    <!-- <compiler angle="radian" coordinate="local"/>
+    <option timestep="0.01" gravity="0 0 -9.81"/> -->
+
+    <worldbody>
+        <!-- Table -->
+        <geom name="table" type="box" size="0.4 0.25 0.005" pos="0.0 -0.4 0.2" rgba="0.7 0.5 0.3 1"/>
+        
+        <!-- Bin placed on top of table -->
+        
+        <body name="cube" pos="0.5 0 .021" quat="0.5 0.5 0.5 0.5">
+            <freejoint name="cube_joint"/>
+            <inertial pos="0 0 0" mass="0.01" diaginertia="0.0001 0.0001 0.0001"/>
+            <geom name="bin" type="box" size="0.02 0.02 0.02" rgba="0.2 0.6 0.8 1" contype="0" conaffinity="0"/>
+        </body>
+        
+    </worldbody>
+
+    <actuator/>
+</mujoco>

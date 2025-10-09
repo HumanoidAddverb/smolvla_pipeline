@@ -1,0 +1,48 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh label="base_link.STL" idInFile="-1" filename="../meshes/base_link.STL" visible="0">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001000000000000000100000001011100000010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="end effector.STL" idInFile="-1" filename="../meshes/end effector.STL" visible="0">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001000000000000000100000001011100000010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="link_1.STL" idInFile="-1" filename="../meshes/link_1.STL" visible="0">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001000000000000000100000001011100000010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="link_2.STL" idInFile="-1" filename="../meshes/link_2.STL" visible="0">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001000000000000000100000001011100000010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="link_3.STL" idInFile="-1" filename="../meshes/link_3.STL" visible="0">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001000000000000000100000001011100000010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="link_4.STL" idInFile="-1" filename="../meshes/link_4.STL" visible="0">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001000000000000000100000001011100000010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+  <MLMesh label="link_5.STL" idInFile="-1" filename="../meshes/link_5.STL" visible="1">
+   <MLMatrix44>
+1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 
+</MLMatrix44>
+   <RenderingOption wireColor="64 64 64 255" solidColor="192 192 192 255" pointSize="3" boxColor="234 234 234 255" wireWidth="1" pointColor="252 233 79 255">100001000000000000000100000001011100000010100000000100111011110000001001</RenderingOption>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>
